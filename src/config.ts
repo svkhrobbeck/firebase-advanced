@@ -3,7 +3,6 @@ const ENV = import.meta.env;
 const config = {
   app: {
     env: ENV,
-    version: ENV.VITE_APP_VERSION,
     isDev: ENV.MODE !== "production",
     editorApiKey: ENV.VITE_APP_EDITOR_API_KEY,
   },
